@@ -1,0 +1,61 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+form {
+	width: 75vw;
+	margin: 40px auto;
+}
+
+.inputField {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.inputField input,
+.inputField textarea {
+	width: 75vw;
+	height: 40px;
+	padding: 0 20px;
+	border: 1px #c4c4c4 solid;
+	border-radius: 10px;
+	color: #6e6e6e;
+	outline: none;
+}
+
+.inputField textarea {
+	height: 180px;
+	padding: 20px;
+	resize: none;
+	line-height: 20px;
+}
+
+.tip {
+	width: 75vw;
+	margin: 0 auto;
+}
+
+.tip p {
+	text-align: center;
+	background-color: rgb(196, 255, 235);
+	padding: 7px;
+	border-radius: 10px;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 700;
+}
+
+.words {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.tip .paragraph-header {
+	background-color: rgb(236, 236, 236);
+}
